@@ -13,7 +13,7 @@ draw = ImageDraw.Draw(image)
 
 # 3. Draw text, lines, or shapes using Pillow
 font = ImageFont.load_default()
-draw.text((20, 20), 'Hello, e-Ink!', font=font, fill=0)
+draw.text((10, 10), 'Hello, e-Ink!', font=font, fill=0)
 draw.line([(0, 30), (image.width, 30)], fill=0, width=2)
 image = image.transpose(Image.Transpose.ROTATE_90)
 
